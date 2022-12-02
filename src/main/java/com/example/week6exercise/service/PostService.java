@@ -14,6 +14,7 @@ public class PostService {
             new Post(2L, "random title2"),
             new Post(3L, "random title3"),
             new Post(4L, "random title4"),
+            new Post(5L, "Thread 2"),
     };
 
     public Boolean checkForBannedWords(String postBody){
