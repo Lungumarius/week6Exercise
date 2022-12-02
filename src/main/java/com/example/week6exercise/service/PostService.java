@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 @Service
 public class PostService {
-    String[] bannedWords = {"faggot","retarded","fuck","racist"};
+    String[] bannedWords = {"fuck","racist"};
     Post[] posts ={
             new Post(1L, "random title"),
             new Post(2L, "random title2"),
